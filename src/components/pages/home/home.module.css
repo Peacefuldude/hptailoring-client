@@ -1,0 +1,177 @@
+main {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.leftSection {
+    width: 20%;
+    margin: 0 1%;
+}
+
+.loginSec {
+    background-color: rgb(255, 255, 255);
+    padding: 10% 0;
+}
+
+.socialSec {
+    background-color: rgb(255, 255, 255);
+    padding: 10% 0;
+    margin-top: 5%;
+}
+
+.middleSection {
+    background-color: rgb(255, 255, 255);
+    width: 60%;
+    padding: 3%;
+    text-align: center;
+}
+
+.middleSection img {
+    width: 100%;
+}
+
+.mapSection1 {
+    background-color: rgb(255, 255, 255);
+    width: 20%;
+    height: 70%;
+    margin: 0 1%;
+}
+
+.mapSection2 {
+    display: none;
+    background-color: rgb(255, 255, 255);
+    width: 86%;
+    height: 70%;
+    margin: 2% 0 3% 8%;
+}
+
+.addressSec {
+    text-align: center;
+    padding: 5%;
+}
+
+.addressSec img {
+    width: 64px;
+}
+
+.addressSec img:hover {
+    cursor: pointer;
+}
+
+.timeLineSec {
+    background-color: rgb(255, 255, 255);
+    width: 54%;
+    padding: 3%;
+    text-align: center;
+    margin: 0 0 2% 20%;
+}
+
+.newsLetterDiv {
+    width: 56%;
+    padding: 2%;
+    text-align: center;
+    margin: 0 0 0 20%;
+}
+
+.timeLineDiv h2 {
+    text-align: center;
+    margin-top: 3%;
+}
+
+.timeLineDiv p {
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+.oderNowDiv {
+    background-color: rgb(255, 255, 255);
+    width: 58%;
+    padding: 1%;
+    text-align: center;
+    margin: 0 0 2% 20%;
+    display: flex;
+}
+
+.oderNowDiv img {
+    width: 256px;
+    padding: 5%;
+}
+
+.oderNowDiv h2 {
+    margin-top: 6%;
+}
+
+.oderNowDiv p {
+    padding: 2% 5% 0 5%;
+}
+
+.oderNowDiv button {
+    background-color: rgb(146, 37, 153);
+    border: none;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Yekan';
+    cursor: pointer;
+    font-size: 16px;
+    width: 85%;
+    margin-bottom: 3%;
+    height: 3rem;
+}
+
+.oderNowDiv button:hover {
+    background-color: rgb(89, 12, 94);
+}
+
+footer {
+    background-color: rgb(255, 255, 255);
+    width: 58%;
+    padding: 1%;
+    text-align: center;
+    margin: 0 0 2% 20%;
+}
+
+@media (max-width: 767px) {
+  
+    .leftSection {
+        display: none;
+    }
+
+    .middleSection {
+        width: 80%;
+    }
+
+    .mapSection1 {
+        display: none;
+    }
+
+    .mapSection2 {
+        display: block;
+    }
+  
+    .newsLetterDiv {
+        width: 80%;
+        margin: 0 0 0 8%;
+    }
+
+    .oderNowDiv {
+        width: 80;
+    }
+
+    .oderNowDiv {
+        display: block;
+        width: 80%;
+        margin: 0 0 2% 8%;
+    }
+
+    .timeLineSec {
+        width: 80%;
+        margin: 0 0 2% 8%;
+    }
+
+    footer {
+        width: 84%;
+        margin: 0 0 2% 8%;
+    }
+}

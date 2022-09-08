@@ -1,0 +1,94 @@
+.container {
+    background-color: rgb(255, 255, 255);
+    width: 40%;
+    padding: 2%;
+    text-align: center;
+    margin: 3% 0 10% 28%;
+    text-align: center;
+}
+
+.formInput {
+    width: 80%;
+    height: 30px;
+    padding: 5px 5px;
+    border: 1px solid rgb(125, 125, 125);
+}
+
+.formdiv {
+    width: 80%;
+    margin-left: 30%;
+}
+
+.formdiv h6 {
+    color: rgb(255, 255, 255);
+    background-color: rgb(146, 37, 153);
+    border-radius: 5px;
+    margin: 0;
+    width: 50%;
+}
+
+.formContainer h2 {
+    margin: 0;
+}
+
+.formContainer p {
+    margin-bottom: 0;
+}
+
+.formButtons {
+    display: flex;
+    width: 82%;
+    margin: 5% 0 0 9%;
+}
+
+.formButtonsDisabled {
+    display: none;
+}
+
+.submitButton {
+    width: 70%;
+    background-color: rgb(146, 37, 153);
+    border: none;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'Yekan';
+    font-size: 16px;
+    padding: 2%;
+    margin-left: 1%;
+}
+
+.submitButton:hover {
+    background-color: rgb(89, 12, 94);
+}
+
+.signUpButton {
+    width: 30%;
+    background-color: rgb(175, 71, 183);
+    border: none;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    font-family: 'Yekan';
+    font-size: 16px;
+    padding: 2%;
+}
+
+.signUpButton:hover {
+    background-color: rgb(89, 12, 94);
+}
+
+.signUpButton a {
+    text-decoration: none;
+    color: #fff;
+}
+
+@media (max-width: 767px) {
+  
+    .container {
+        width: 80%;
+        margin: 3% 0 10% 8%;
+    }
+  
+}

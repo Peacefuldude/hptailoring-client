@@ -1,0 +1,55 @@
+.container {
+    text-align: center;
+    min-height: 100px;
+}
+
+.formInput {
+    width: 80%;
+    height: 30px;
+    padding: 5px 5px;
+    border: 1px solid rgb(125, 125, 125);
+    transition: all 0.2s ease-in;
+}
+
+.formdiv {
+    width: 80%;
+    margin-left: 30%;
+}
+
+.formdiv h6 {
+    color: rgb(255, 255, 255);
+    background-color: rgb(146, 37, 153);
+    border-radius: 5px;
+    margin: 0;
+    width: 50%;
+}
+
+.formContainer h2 {
+    margin: 0;
+}
+
+.formContainer p {
+    margin-bottom: 0;
+}
+
+.submitButton {
+    display: none;
+}
+
+.formContainer button {
+    background-color: rgb(146, 37, 153);
+    border: none;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'Yekan';
+    font-size: 16px;
+    width: 85%;
+    margin: 10% 0 0 0;
+    padding: 3%;
+}
+
+.formContainer button:hover {
+    background-color: rgb(89, 12, 94);
+}
